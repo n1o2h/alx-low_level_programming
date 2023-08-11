@@ -1,27 +1,23 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /**
   * main - prints all possible combinations of two two-digit numbers
   * Return: Always 0 (Success)
 */
+
 int main(void)
 {
-printf("enter a number :");
-scanf(" % " d, &n);
-if (n == 0)
-{
-printf("the number %d is zero", n);
-}
+int n;
+
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+
+if (n == O)
+	printf("%d is zero\n", n);
+else if (n > 0)
+	printf("%d is positive\n", n);
 else
-{
-if (n > 0)
-{
-printf("the number  %d is positive", n);
-}
-else
-{
-printf("the number %d is negative ", n);
-}
+	printf("%d is negative\n", n);
 return (0);
 }
