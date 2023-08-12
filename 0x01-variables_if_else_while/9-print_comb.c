@@ -16,6 +16,6 @@ putchar(' ');
 }
 i++;
 }
-putchart('\n');
+putchar('\n');
 return (0);
 }
