@@ -16,6 +16,6 @@ if  (i == 57) /* 57: decimal repo of 9*/
 i += 39;
 i++;
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
