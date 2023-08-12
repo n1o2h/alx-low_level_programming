@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-  * main - prints all alphabet letters and  in uppercas
+  * main - prints all alphabet letters and  in uppercase
   * Return: Always 0 (Success)
 */
 int main(void)
@@ -23,5 +23,5 @@ Ch++;
 }
 
 putchar('\n');
-
+return (0);
 }
