@@ -1,4 +1,4 @@
-ginclude "main.h"
+#include "main.h"
 
 /**
  *print_alphabet - utilizes on the _putchar fuction to print
@@ -15,4 +15,5 @@ _putchar(ch);
 _putchar('\n');
 }
 }
+
 
