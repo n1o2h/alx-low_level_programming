@@ -13,14 +13,14 @@ int count;
 unsigned long fib1 = 0, fib2 = 1, sum;
 for (count = 0; count <= 50; count++)
 {
-sum + fib1 + fib2;
-print("%lu", sum);
+sum = fib1 + fib2;
+printf("%lu", sum);
 fib1 = fib2;
 fib2 = sum;
 if (count == 49)
-print("%\n");
+printf("%\n");
 else
-print(", ");
+printf(", ");
 }
 return (0);
 }
