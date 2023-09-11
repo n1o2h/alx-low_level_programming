@@ -6,6 +6,6 @@
 
 int main(void)
 {
-	printf("the name of the file it was compiled : %s\n", __FILE__);
+	printf("%s\n", __FILE__);
 	return (0);
 }
