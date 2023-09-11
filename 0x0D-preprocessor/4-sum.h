@@ -1,2 +1,8 @@
+#ifndef _OBJECT_LIKE_MACRO_
+#define _OBJECT_LIKE_MACRO_
+
+
 #define SUM(x, y) ((x) + (y))
-/* the sum of two numbers*/
+
+#endif /*_OBJECT_LIKE_MACRO_*/
+
