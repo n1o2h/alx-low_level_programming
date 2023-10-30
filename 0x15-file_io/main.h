@@ -2,7 +2,7 @@
 #define MAIN_H
 #include <stdio.h>
 #include <stdlib.h>
-#include <fcnt1.h>
+#include <fcntl.h>
 #include <unistd.h>
 #define BUF 1024
 int _putchar(char c);
